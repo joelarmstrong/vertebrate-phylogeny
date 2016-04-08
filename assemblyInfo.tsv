@@ -1,0 +1,185 @@
+CommonName	UCSCAssemblyName
+Human	hg19
+Chimp	panTro4
+Bonobo	panPan1
+Gorilla	gorGor3
+Orangutan	ponAbe2
+Gibbon	nomLeu3
+Green monkey	chlSab1
+Rhesus	rheMac3
+Crab-eating macaque	macFas5
+Baboon	papHam1
+Proboscis monkey	nasLar1
+Squirrel monkey	saiBol1
+Marmoset	calJac3
+Tarsier	tarSyr1
+Mouse lemur	micMur1
+Bushbaby	otoGar3
+Tree shrew	tupBel1
+Chinese tree shrew	tupChi1
+Malayan flying lemur	galVar1
+Mouse	mm10
+Rat	rn5
+Brush-tailed rat	octDeg1
+Kangaroo rat	dipOrd1
+Lesser Egyptian jerboa	jacJac1
+Prairie deer mouse	perManBai1
+Prairie vole	micOch1
+Chinese hamster	criGri1
+Golden hamster	mesAur1
+Naked mole rat	hetGla2
+Blind mole rat	nanGal1
+Guinea pig	cavPor3
+Chinchilla	chiLan1
+Rabbit	oryCun2
+Squirrel	speTri2
+Pika	ochPri3
+Pig	susScr3
+Alpaca	vicPac2
+Tibetan antelope	panHod1
+Dolphin	turTru2
+Yangtze river dolphin	lipVex1
+Killer whale	orcOrc1
+Sperm whale	phyCat1
+Minke whale	balAcu1
+Sheep	oviAri3
+Domestic goat	capHir1
+Cow	bosTau7
+Wild yak	bosMut1
+Water buffalo	bubBub1
+Horse	equCab2
+Przewalski horse	equPrz1
+White rhinoceros	cerSim1
+Chinese pangolin	manPen1
+Cat	felCat5
+Amur tiger	panTig1
+Ferret	musFur1
+Dog	canFam3
+Gray wolf	canLup1
+Wild bactrian camel	camFer1
+Panda	ailMel1
+Polar bear	ursMar1
+Pacific walrus	odoRosDiv1
+Weddell seal	lepWed1
+Brandt's bat	myoBra1
+David's myotis	myoDav1
+Microbat	myoLuc2
+Greater horseshoe bat	rhiFer1
+Big brown bat	eptFus1
+Straw colored fruit bat	eidHel1
+Megabat	pteVam1
+Black flying fox	pteAle1
+Indian false vampire	megLyr1
+Parnell's mustached bat	ptePar1
+Hedgehog	eriEur2
+Shrew	sorAra2
+Star-nosed mole	conCri1
+Elephant	loxAfr3
+Cape elephant shrew	eleEdw1
+Golden mole	chrAsi1
+Aardvark	oryAfe1
+Rock hyrax	proCap1
+Tenrec	echTel2
+Manatee	triMan1
+Armadillo	dasNov3
+Sloth	choHof1
+Opossum	monDom5
+Tasmanian devil	sarHar1
+Wallaby	macEug2
+Platypus	ornAna1
+Saker falcon	falChe1
+Peregrine falcon	falPer1
+Rock pigeon	colLiv1
+Collared flycatcher	ficAlb2
+Puerto Rican parrot	amaVit1
+Scarlet macaw	araMac1
+Chicken	galGal4
+Japanese quail	cotJap1
+Killdeer	chaVoc2
+Common cuckoo	cucCan1
+Bar-tailed trogon	apaVit1
+Pekin duck	anaPla1
+Rhinoceros hornbill	bucRhi1
+Tibetan ground tit	pseHum1
+White-throated sparrow	zonAlb1
+Turkey	melGal1
+Common ostrich	strCam1
+White-throated tinamou	tinGut2
+Rifleman	acaChl1
+Emperor penguin	aptFor1
+Golden eagle	aquChr1
+Bald eagle	halLeu1
+Anna's hummingbird	calAnn1
+Chuck-will's-widow	capCar1
+Red-legged seriema	carCri1
+Houbara bustard	chlUnd1
+Speckled mousebird	colStr1
+American crow	corBra1
+Hooded crow	corCor1
+Crested ibis	nipNip1
+Little egret	egrGar1
+Sunbittern	eurHel1
+Grey-crowned crane	balPav1
+Northern fulmar	fulGla1
+Red-throated loon	gavSte1
+White-tailed eagle	halAlb1
+Cuckoo-roller	lepDis1
+Golden-collared manakin	manVit2
+Carmine bee-eater	merNub1
+Brown mesite	mesUni1
+Hoatzin	opiHoa1
+Red-crested turaco	tauEry1
+Dalmatian pelican	pelCri1
+Great cormorant	phaCar1
+White-tailed tropicbird	phaLep1
+American flamingo	phoRub1
+Downy woodpecker	picPub1
+Yellow-throated sandgrouse	pteGut1
+Adelie penguin	pygAde1
+Barn owl	tytAlb1
+Zebra finch	taeGut2
+Atlantic canary	serCan1
+Medium ground-finch	geoFor1
+Budgerigar	melUnd1
+Burmese python	pytBiv1
+American alligator	allMis1
+Chinese alligator	allSin1
+Crocodile	croPor2
+Gharial	gavGan1
+Lizard	anoCar2
+Burmese python	pytMolBiv1
+Green seaturtle	cheMyd1
+Chinese softshell turtle	pelSin1
+Spiny softshell turtle	apaSpi1
+Painted turtle	chrPic1
+Frog	xenTro7
+Coelacanth	latCha1
+Tetraodon	tetNig2
+Fugu	fr3
+Yellowbelly pufferfish	takFla1
+Burton's mouthbreeder	hapBur1
+European sea bass	dicLab1
+Bicolor damselfish	stePar1
+Zebra mbuna	mayZeb1
+Pundamilia nyererei	punNye1
+Nile tilapia	oreNil2
+Princess of Burundi	neoBri1
+Tonguefish	cynSem1
+Black rockcod	notCor1
+Tiger rockfish	sebNig1
+Flag rockfish	sebRub1
+Stickleback	gasAcu1
+Medaka	oryLat2
+Sheepshead minnow	cypVar1
+Southern platyfish	xipMac1
+Guppy	poeRet1
+Amazon molly	poeFor1
+Northern pike	esoLuc1
+Atlantic cod	gadMor1
+Japanese eel	angJap1
+Zebrafish	danRer7
+Mexican tetra	astMex1
+Spotted gar	lepOcu1
+Elephant shark	calMil1
+Lamprey	petMar2
+Arctic lamprey	letCam1

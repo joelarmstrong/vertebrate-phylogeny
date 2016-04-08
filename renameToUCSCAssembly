@@ -1,0 +1,44 @@
+#!/usr/bin/env python
+"""From the tree that uses common names, produces a new tree using
+UCSC assembly names."""
+from argparse import ArgumentParser
+import re
+
+def parseRenameFile(renameFile, fromColumn, toColumn):
+    """Create a dict mapping from the "from" column to the "to" column for
+    each row."""
+    header = renameFile.readline()
+    headerFields = header.strip().split("\t")
+    fromIndex = headerFields.index(fromColumn)
+    toIndex = headerFields.index(toColumn)
+
+    renameDict = {}
+    for line in renameFile:
+        fields = line.strip().split("\t")
+        renameDict[fields[fromIndex]] = fields[toIndex]
+    return renameDict
+
+def renameTreeString(treeString, renameDict):
+    """Takes a newick tree string as input, and renames the nodes
+    according to renameDict."""
+    for fromName, toName in renameDict.items():
+        # Apostrophes are represented twice in newick names
+        fromName = fromName.replace('\'', '\'\'')
+        treeString = re.sub(r'([,()\s]*)\'?' + fromName + r'\'?([:,)])', r'\1' + toName + r'\2', treeString)
+    return treeString
+
+def main():
+    parser = ArgumentParser(description=__doc__)
+    parser.add_argument('commonNameTree', type=open,
+                        help='tree using common names')
+    parser.add_argument('renameFile', type=open,
+                        help='assemblyInfo.tsv file')
+    opts = parser.parse_args()
+    renameDict = parseRenameFile(opts.renameFile,
+                                 fromColumn='CommonName',
+                                 toColumn='UCSCAssemblyName')
+    treeString = renameTreeString(opts.commonNameTree.read(), renameDict)
+    print treeString
+
+if __name__ == '__main__':
+    main()
